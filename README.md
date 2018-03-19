@@ -26,10 +26,10 @@ yarn
 ```
 {
 	"bradmax-player": "./../../bs-player",
-	"bradmax-player-js": "./package/bradmax-player-js",
-	"bradmax-player-ag": "./package/bradmax-player-ag",
-	"bradmax-player-ng": "./package/bradmax-player-ng",
-	"bradmax-player-rxjs": "./package/bradmax-player-rxjs",
+	"bradmax-player-js": "./package/player",
+	"bradmax-player-ag": "./package/player-ag",
+	"bradmax-player-ng": "./package/player-ng",
+	"bradmax-player-rxjs": "./package/player-rxjs",
 	"local-distribution-server-url": "http://localhost",
 	"local-distribution-server-port": "6969"
 }
@@ -61,6 +61,8 @@ yarn bradmax --help
 ```
 npm run bradmax -- --help
 ```
+#### If your IDE is [VS Code][vscode] open debug panel and use one of predefined tasks.
+tasks configuration can be found in[ *.vscode/launch.json*](.vscode/launch.json).
 ___
 ### Project structure
 | | |
@@ -89,7 +91,9 @@ More info @ [bradmax.com][bradmax]
 [git-player-ng-example]: https://github.com/bradmax-com/bradmax-player-ng-example
 [git-player-rxjs]: https://github.com/bradmax-com/bradmax-player-rxjs
 [git-player-rxjs-example]: https://github.com/bradmax-com/bradmax-player-rxjs-example
-[git-player-js]: https://github.com/bradmax-com/bradmax-player-ag
+[git-player-js]: https://github.com/bradmax-com/bradmax-player-js
 
 [bradmaxLogo]: ./assets/md/bradmax.svg
 [nodeLogo]: ./assets/md/node.svg
+
+[vscode]: https://code.visualstudio.com/
