@@ -28,118 +28,6 @@
 			],
 			"console": "integratedTerminal"
 		},
-		/* ======================================================= */
-		/* JS player */
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "JS player / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:js",
-				"--debug"
-			],
-			"console": "integratedTerminal"
-		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "JS player / compile players / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:js",
-				"--debug",
-				"--compilePlayer"
-			],
-			"console": "integratedTerminal"
-		},
-		/* ======================================================= */
-		/* AG player */
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "AG player / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:ag",
-				"--debug"
-			],
-			"console": "integratedTerminal"
-		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "AG player / localServer / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:ag",
-				"--debug",
-				"--localServer"
-			],
-			"console": "integratedTerminal"
-		},
-		/* ======================================================= */
-		/* NG player */
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "NG player / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:ng",
-				"--debug"
-			],
-			"console": "integratedTerminal"
-		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "NG player / localServer / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:ng",
-				"--debug",
-				"--localServer"
-			],
-			"console": "integratedTerminal"
-		},
-		/* ======================================================= */
-		/* RX player */
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "RX player / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:rx",
-				"--debug"
-			],
-			"console": "integratedTerminal"
-		},
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "RX player / localServer / debug",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"player:rx",
-				"--debug",
-				"--localServer"
-			],
-			"console": "integratedTerminal"
-		},
-		/* ======================================================= */
-		/* CLEAR */
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "CLEAR",
-			"program": "${workspaceFolder}/src/bradmax.js",
-			"args": [
-				"clear"
-			],
-			"console": "integratedTerminal"
-		}
 		/* BUMP */
 		{
 			"type": "node",
@@ -171,5 +59,129 @@
 			],
 			"console": "integratedTerminal"
 		},
+		/* ======================================================= */
+		/* BUILD */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"build"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
+		/* JS player */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:JS player / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:js",
+				"--debug"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:JS player / compile players / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:js",
+				"--debug",
+				"--compilePlayer"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
+		/* AG player */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:AG player / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:ag",
+				"--debug"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:AG player / localServer / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:ag",
+				"--debug",
+				"--localServer"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
+		/* NG player */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:NG player / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:ng",
+				"--debug"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:NG player / localServer / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:ng",
+				"--debug",
+				"--localServer"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
+		/* RX player */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:RX player / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:rx",
+				"--debug"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUILD:RX player / localServer / debug",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"player:rx",
+				"--debug",
+				"--localServer"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
+		/* CLEAR */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "CLEAR",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"clear"
+			],
+			"console": "integratedTerminal"
+		}
 	]
 }
