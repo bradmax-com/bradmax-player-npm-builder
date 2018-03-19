@@ -140,5 +140,36 @@
 			],
 			"console": "integratedTerminal"
 		}
+		/* BUMP */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUMP:major",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"bump:major"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUMP:minor",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"bump:minor"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "BUMP:patch",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"bump:patch"
+			],
+			"console": "integratedTerminal"
+		},
 	]
 }
