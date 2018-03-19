@@ -1,9 +1,9 @@
 {
 	"bradmax-player": "./../../bs-player",
-	"bradmax-player-js": "./package/bradmax-player-js",
-	"bradmax-player-ag": "./package/bradmax-player-ag",
-	"bradmax-player-ng": "./package/bradmax-player-ng",
-	"bradmax-player-rxjs": "./package/bradmax-player-rxjs",
+	"bradmax-player-js": "./package/player",
+	"bradmax-player-ag": "./package/player-ag",
+	"bradmax-player-ng": "./package/player-ng",
+	"bradmax-player-rxjs": "./package/player-rxjs",
 	"local-distribution-server-url": "http://localhost",
 	"local-distribution-server-port": "6969"
 }
