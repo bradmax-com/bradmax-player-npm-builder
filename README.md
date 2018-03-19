@@ -1,6 +1,5 @@
 ___
-![Bradmax][bradmaxLogo]
-![NodeJs][nodeLogo]
+![NodeJs][nodeLogo]![Bradmax][bradmaxLogo]
 ___
 This node.js program builds [bradmax player][bradmax] npm packages for:
 
