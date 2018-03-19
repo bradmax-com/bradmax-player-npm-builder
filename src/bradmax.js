@@ -34,8 +34,6 @@ const TGZ_DIR = _help.root(`dist`);
 ///// CLI
 /// global options
 _cli.version(PACKAGE.version)
-	// program type
-	.option('-i, --install', 'install library in your npm project.')
 	// program specific args
 	.option('-p, --compilePlayer', 'compile player js sources in local repo before package compilation. Works only with: `player:js`')
 	.option('-s, --localServer', 'install bradmax-player-** dependencies before compilation from local distribution server. Works only with: `player:(ag/ng/rx)`')

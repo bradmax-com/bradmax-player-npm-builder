@@ -43,29 +43,33 @@ async function install(dir, name, version) {
 			await _yarn.uninstall(dir, name);
 		} catch (e) {}
 		_log.done();
-
 		_log.task(`yarn cache clean`);
 		await _yarn.clean();
 		_log.done();
-
-		if (_cli.localServer) {
-			await _server.startServer(version);
-			_log.task(`install ${name} from local server: ${_server.PLAYER_JS}`);
-			try {
-				await _yarn.install(dir, _server.PLAYER_JS, `-B`);
-			} catch (e) {
-				await _server.stopServer();
-				throw e;
-			}
-			_log.done();
-			_log.task(`stop server`);
+		await _server.startServer(version);
+		_log.task(`install ${name} from local server: ${_server.PLAYER_JS}`);
+		try {
+			await _yarn.install(dir, _server.PLAYER_JS, `-B`);
+		} catch (e) {
 			await _server.stopServer();
-			_log.done();
+			throw e;
 		}
+		_log.done();
+		_log.task(`stop server`);
+		await _server.stopServer();
+		_log.done();
 	}
-	if (!_cli.debug) {
+	else {
+		_log.task(`uninstall ${name}`);
+		try {
+			await _yarn.uninstall(dir, name);
+		} catch (e) {}
+		_log.done();
+		_log.task(`yarn cache clean`);
+		await _yarn.clean();
+		_log.done();
 		_log.task(`install npm dependencies`);
-		await _yarn.install(dir);
+		await _yarn.install(dir, name, `-B`);
 		_log.done();
 	}
 }
