@@ -5,6 +5,18 @@
 	"version": "0.2.0",
 	"configurations": [
 		/* ======================================================= */
+		/* HELP */
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "HELP",
+			"program": "${workspaceFolder}/src/bradmax.js",
+			"args": [
+				"--help"
+			],
+			"console": "integratedTerminal"
+		},
+		/* ======================================================= */
 		/* DISTRIBUTION SERVER */
 		{
 			"type": "node",
