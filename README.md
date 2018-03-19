@@ -81,7 +81,7 @@ More info @ [bradmax.com][bradmax]
 [bradmax-doc-config]: https://bradmax.com/static/player-doc/configuration.html
 [npm-player-ag]: https://npmjs.com/package/bradmax-player-ag
 [npm-player-ng]: https://npmjs.com/package/bradmax-player-ng
-[npm-player-rx]: https://npmjs.com/package/bradmax-player-rx
+[npm-player-rxjs]: https://npmjs.com/package/bradmax-player-rxjs
 [npm-player-js]: https://npmjs.com/package/bradmax-player-js
 [git-player-ag]: https://github.com/bradmax-com/bradmax-player-ag
 [git-player-ag-example]: https://github.com/bradmax-com/bradmax-player-ag-example

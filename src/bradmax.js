@@ -12,7 +12,7 @@ const PACKAGE = require('./../package.json');
 const PACKAGE_PLAYER_JS = require('./../package/bradmax-player-js/package.json');
 const PACKAGE_PLAYER_AG = require('./../package/bradmax-player-ag/package.json');
 const PACKAGE_PLAYER_NG = require('./../package/bradmax-player-ng/package.json');
-const PACKAGE_PLAYER_RX = require('./../package/bradmax-player-rx/package.json');
+const PACKAGE_PLAYER_RX = require('./../package/bradmax-player-rxjs/package.json');
 //
 const _playerJs = require('./package/player-js');
 const _playerAg = require('./package/player-ag');

@@ -24,7 +24,7 @@ async function startServer(version) {
 			[`js`]: `bradmax-player-v${version}.tgz`,
 			[`ag`]: `bradmax-player-ag-v${version}.tgz`,
 			[`ng`]: `bradmax-player-ng-v${version}.tgz`,
-			[`rx`]: `bradmax-player-rx-v${version}.tgz`
+			[`rx`]: `bradmax-player-rxjs-v${version}.tgz`
 		});
 	} catch (e) {
 		_log.error(e);

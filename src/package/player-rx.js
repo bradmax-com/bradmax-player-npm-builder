@@ -17,7 +17,7 @@ const _uglify = require('./../tool/uglify');
 
 /* VARIABLE */
 const SETUP = require('./../../setup.json');
-const ROOT_DIR = _help.root(SETUP['bradmax-player-rx']);
+const ROOT_DIR = _help.root(SETUP['bradmax-player-rxjs']);
 const OUT = `${ROOT_DIR}/dist`;
 const TMP_OUT = `${OUT}/tmp`;
 
@@ -159,7 +159,7 @@ async function build(PACKAGE, PLAYER_NAMES, TGZ_DIR) {
 			globals: rollup_globals,
 			exports: 'named',
 			amd: {
-				id: `bradmax-player-rx-${name}`
+				id: `bradmax-player-rxjs-${name}`
 			},
 			banner: rollup_banner
 		}));
