@@ -78,7 +78,7 @@ async function build(PACKAGE, PLAYER_NAMES, TGZ_DIR) {
 	await _file.copy([`${ROOT_DIR}/package.json`], OUT);
 	for (const name of PLAYER_NAMES)
 		await _file.write(`${OUT}/${name}/package.json`, JSON.stringify({
-			name: `@bradmax/player-ag/${name}`,
+			name: `${PACKAGE.name}/${name}`,
 			version: PACKAGE.version,
 			main: `./index.min.js`,
 		}, null, '\t'));
