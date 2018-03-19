@@ -1,0 +1,16 @@
+[submodule "package/player"]
+	path = package/player
+	url = https://github.com/bradmax-com/bradmax-player-js.git
+	branch = master
+[submodule "package/player-ag"]
+	path = package/player-ag
+	url = https://github.com/bradmax-com/bradmax-player-ag.git
+	branch = master
+[submodule "package/player-ng"]
+	path = package/player-ng
+	url = https://github.com/bradmax-com/bradmax-player-ng.git
+	branch = master
+[submodule "package/player-rxjs"]
+	path = package/player-rxjs
+	url = https://github.com/bradmax-com/bradmax-player-rxjs.git
+	branch = master
