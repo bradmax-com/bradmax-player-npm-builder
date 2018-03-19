@@ -3,12 +3,14 @@ ___
 ![NodeJs][nodeLogo]
 ___
 This node.js program builds [bradmax player][bradmax] npm packages for:
+
 | plugin | npm | github | example |
 | ---:|:--:|:--|:---|
 | **angular js** | [@bradmax/player-ag][npm-player-ag] | [bradmax-com/bradmax-player-ag][git-player-ag] | [bradmax-com/bradmax-player-ag-example][git-player-ag-example] |
 | **angular 5+** | [@bradmax/player-ng][npm-player-ng] | [bradmax-com/bradmax-player-ng][git-player-ng] | [bradmax-com/bradmax-player-ng-example][git-player-ng-example] |
 | **reactJs**    | [@bradmax/player-rxjs][npm-player-rxjs] | [bradmax-com/bradmax-player-rxjs][git-player-rxjs] | [bradmax-com/bradmax-player-rxjs-example][git-player-rxjs-example] |
 | *player js**   | [@bradmax/player-js][npm-player-js] | [bradmax-com/bradmax-player-js][git-player-js] | |
+
 **bundle dependency of all above packages*
 ___
 ## Usage:
