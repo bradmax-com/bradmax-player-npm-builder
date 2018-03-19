@@ -9,12 +9,13 @@ const _file = require('./util/file');
 const _server = require('./util/server');
 //
 const PACKAGE = require('./../package.json');
-const PACKAGE_PLAYER_JS = require('./../package/bradmax-player-js/package.json');
-const PACKAGE_PLAYER_AG = require('./../package/bradmax-player-ag/package.json');
-const PACKAGE_PLAYER_NG = require('./../package/bradmax-player-ng/package.json');
-const PACKAGE_PLAYER_RX = require('./../package/bradmax-player-rxjs/package.json');
+const SETUP = require('./../setup.json');
+const PACKAGE_PLAYER_JS = require(_help.root(`${SETUP['bradmax-player-js']}/package.json`));
+const PACKAGE_PLAYER_AG = require(_help.root(`${SETUP['bradmax-player-ag']}/package.json`));
+const PACKAGE_PLAYER_NG = require(_help.root(`${SETUP['bradmax-player-ng']}/package.json`));
+const PACKAGE_PLAYER_RX = require(_help.root(`${SETUP['bradmax-player-rxjs']}/package.json`));
 //
-const _playerJs = require('./package/player-js');
+const _playerJs = require('./package/player');
 const _playerAg = require('./package/player-ag');
 const _playerNg = require('./package/player-ng');
 const _playerRx = require('./package/player-rx');
