@@ -8,7 +8,7 @@ This node.js program builds [bradmax player][bradmax] npm packages for:
 | **angular js** | [@bradmax/player-ag][npm-player-ag] | [bradmax-com/bradmax-player-ag][git-player-ag] | [bradmax-com/bradmax-player-ag-example][git-player-ag-example] |
 | **angular 5+** | [@bradmax/player-ng][npm-player-ng] | [bradmax-com/bradmax-player-ng][git-player-ng] | [bradmax-com/bradmax-player-ng-example][git-player-ng-example] |
 | **reactJs**    | [@bradmax/player-rxjs][npm-player-rxjs] | [bradmax-com/bradmax-player-rxjs][git-player-rxjs] | [bradmax-com/bradmax-player-rxjs-example][git-player-rxjs-example] |
-| *player js**   | [@bradmax/player-js][npm-player-js] | [bradmax-com/bradmax-player-js][git-player-js] | |
+| *player js**   | [@bradmax/player][npm-player] | [bradmax-com/bradmax-player-js][git-player-js] | |
 
 **bundle dependency of all above packages*
 ___
@@ -83,7 +83,7 @@ More info @ [bradmax.com][bradmax]
 [npm-player-ag]: https://npmjs.com/package/bradmax-player-ag
 [npm-player-ng]: https://npmjs.com/package/bradmax-player-ng
 [npm-player-rxjs]: https://npmjs.com/package/bradmax-player-rxjs
-[npm-player-js]: https://npmjs.com/package/bradmax-player-js
+[npm-player]: https://npmjs.com/package/bradmax-player
 [git-player-ag]: https://github.com/bradmax-com/bradmax-player-ag
 [git-player-ag-example]: https://github.com/bradmax-com/bradmax-player-ag-example
 [git-player-ng]: https://github.com/bradmax-com/bradmax-player-ng
