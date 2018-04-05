@@ -2,7 +2,7 @@
 	"name": "@bradmax/npm-builder",
 	"description": "This project is used to build npm packages with bradmax player for AngularJS, Angular5, ReactJs.",
 	"private": true,
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"license": "MIT",
 	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
 	"homepage": "https://bradmax.com",
@@ -15,7 +15,7 @@
 	],
 	"engines": {
 		"node": "8.9.4",
-		"npm": "5.7.1",
+		"npm": "5.8.0",
 		"yarn": "1.5.1"
 	},
 	"scripts": {
@@ -31,7 +31,7 @@
 		"babel-preset-react": "6.24.1",
 		"babel-preset-stage-1": "6.24.1",
 		"chalk": "2.3.2",
-		"commander": "2.15.0",
+		"commander": "2.15.1",
 		"express": "4.16.3",
 		"gulp": "3.9.1",
 		"gulp-concat": "2.6.1",
@@ -42,12 +42,12 @@
 		"rollup": "0.57.1",
 		"rollup-plugin-babel": "3.0.3",
 		"rollup-plugin-license": "0.6.0",
-		"rollup-plugin-node-resolve": "3.2.0",
+		"rollup-plugin-node-resolve": "3.3.0",
 		"rollup-plugin-sourcemaps": "0.4.2",
 		"semver": "5.5.0",
 		"tslib": "1.9.0",
 		"tslint": "5.9.1",
-		"typescript": "2.7.2",
-		"uglify-js": "3.3.15"
+		"typescript": "2.8.1",
+		"uglify-js": "3.3.18"
 	}
 }
