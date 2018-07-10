@@ -33,7 +33,7 @@ yarn
 	"local-distribution-server-port": "6969"
 }
 ```
-- *`bradmax-player`* : , path to locale repo with bradmax player, used for building player javascript sources package,
+- *`bradmax-player`* : path to locale repo with bradmax player, used for building player javascript sources package,
 - *`bradmax-player-js`* : path to bradmax player javascript git sub-module,
 - *`bradmax-player-ag`* : path to bradmax player AngularJs git sub-module,
 - *`bradmax-player-ng`* : path to bradmax player Angular git sub-module,
@@ -80,10 +80,10 @@ More info @ [bradmax.com][bradmax]
 
 [bradmax]: https://bradmax.com
 [bradmax-doc-config]: https://bradmax.com/static/player-doc/configuration.html
-[npm-player-ag]: https://npmjs.com/package/bradmax-player-ag
-[npm-player-ng]: https://npmjs.com/package/bradmax-player-ng
-[npm-player-rxjs]: https://npmjs.com/package/bradmax-player-rxjs
-[npm-player]: https://npmjs.com/package/bradmax-player
+[npm-player-ag]: https://www.npmjs.com/package/@bradmax/player-ag
+[npm-player-ng]: https://www.npmjs.com/package/@bradmax/player-ng
+[npm-player-rxjs]: https://www.npmjs.com/package/@bradmax/player-rxjs
+[npm-player]: https://www.npmjs.com/package/@bradmax/player
 [git-player-ag]: https://github.com/bradmax-com/bradmax-player-ag
 [git-player-ag-example]: https://github.com/bradmax-com/bradmax-player-ag-example
 [git-player-ng]: https://github.com/bradmax-com/bradmax-player-ng
