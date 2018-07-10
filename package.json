@@ -2,7 +2,7 @@
 	"name": "@bradmax/npm-builder",
 	"description": "This project is used to build npm packages with bradmax player for AngularJS, Angular5, ReactJs.",
 	"private": true,
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"license": "MIT",
 	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
 	"homepage": "https://bradmax.com",
